@@ -93,10 +93,11 @@
     color: #316099;
   }
   &__list{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-bottom: 100px;
-    gap: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 860px;
+    margin-left: 0;
   }
   &__item{
     max-width: 380px;
