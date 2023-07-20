@@ -1,0 +1,52 @@
+@import '../mixins';
+
+.category-card {
+  min-height: var(--categoryCardHeight);
+  max-width: 380px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  padding: 0 48px 48px 48px;
+
+  &__image-wrapper {
+    position: relative;
+    top: -12px;
+    margin-bottom: 63px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  &__title {
+    @include line-clamp(2);
+
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+  }
+
+  &__text {
+    @include line-clamp(4);
+
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+  }
+
+  &__link {
+    display: flex;
+  }
+
+  &__link-inner{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    margin-right: 20px;
+  }
+}
