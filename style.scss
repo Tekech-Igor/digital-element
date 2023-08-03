@@ -301,122 +301,17 @@ footer {
 
 }
 
-.work {
-  padding-top: 91px;
-  padding-bottom: 96px;
-  padding-left: 112px;
-  background: #316099;
-  border-radius: 0px 200px 0px 0px;
-
-  &__inner {
-    display: flex;
-  }
-
-  &__top-title {
-    font-size: 36px;
-    line-height: 46px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    max-width: 317px;
-  }
-
-  &__top-text {
-    margin-top: 32px;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    opacity: 0.6;
-    max-width: 460px;
-  }
-
-  &__top-btn {
-    margin-top: 74px;
-    margin-left: 180px;
-  }
-
-  &__button {
-    @extend %btn;
-    width: 220px;
-    height: 56px;
-  }
-}
 
 
-footer {
-  background-color: #316099;
-  color: #FFFFFF;
-}
 
-.footer-top {
-  padding: 70px 0 64px;
-  border-top: 1px solid #FFFFFF;
-  display: flex;
 
-  &__inner-contact {
-    width: 300px;
-    margin-right: 100px;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    margin-bottom: 24px;
-  }
 
-  &__logo {
-    display: flex;
-    margin-bottom: 33px;
-  }
 
-  &__logo-img {
-    margin-right: 15px;
-    min-width: 48px;
-    position: relative;
-    top: -5px;
-  }
 
-  &__title {
-    margin-bottom: 35px;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-  }
 
-  &__inner-contact+.footer-top__inner-contact {
-    margin-bottom: 24px;
-  }
 
-  &__letter {
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    margin-right: 16px;
-  }
 
-  &__adress,
-  &__phone,
-  &__mail {
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-  }
 
-  &__contact {
-    width: 164px;
-    margin-right: 77px;
-  }
 
-  &__link {
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-  }
-
-  &__item:not(:last-child) {
-    margin-bottom: 16px;
-  }
-
-}
 
 @import 'media';
